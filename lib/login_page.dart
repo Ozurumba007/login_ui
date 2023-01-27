@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import '/signup_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -135,10 +134,7 @@ class LoginPage extends StatelessWidget {
                   children: [
                     Text('Don\'t have an account?'),
                     TextButton(
-                      onPressed: () {
-                        Navigator.of(context).push(
-                            MaterialPageRoute(builder: (context) => SignUp()));
-                      },
+                      onPressed: () {},
                       child: Container(
                         height: 20,
                         child: Text('Sign up'),
